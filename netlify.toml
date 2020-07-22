@@ -7,7 +7,7 @@
     YARN_VERSION = "1.22.4"
     
 [[plugins]]
-  package = "./src/index.js"
+package = "@netlify/plugin-lighthouse"
 
   [plugins.inputs.thresholds]
     performance = 0.9

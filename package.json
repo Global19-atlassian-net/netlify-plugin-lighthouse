@@ -23,6 +23,7 @@
   "author": "netlify-labs",
   "license": "MIT",
   "dependencies": {
+    "@netlify/plugin-lighthouse": "^1.4.0",
     "chalk": "^4.1.0",
     "chrome-launcher": "^0.13.2",
     "dotenv": "^8.2.0",
