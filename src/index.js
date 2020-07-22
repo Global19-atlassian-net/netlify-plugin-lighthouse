@@ -243,7 +243,7 @@ module.exports = {
       if (error) {
         throw error;
       }
-      show({ summary });
+      show({ summary: 'test' });
     } catch (error) {
       if (error.details) {
         console.error(error.details);
